@@ -59,3 +59,20 @@ function renderCart() {
   });
 }
 
+const btn1 = document.getElementById('1');
+const btn2 = document.getElementById('2');
+const btn3 = document.getElementById('3');
+btn1.addEventListener('click', () => {
+  addToBasket(1);
+});
+
+btn2.addEventListener('click', () => {
+  addToBasket(2);
+});
+
+btn3.addEventListener('click', () => {
+  addToBasket(3);
+});
+
+
+

@@ -63,6 +63,25 @@
             margin: auto;
         }
 
+        * {
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 640px) {
+            .shop {
+                grid-template-columns: 1fr;
+                width: min(100% - 32px, 420px);
+            }
+
+            ul {
+                width: min(300px, calc(100% - 32px));
+            }
+
+            .product h2 {
+                overflow-wrap: anywhere;
+            }
+        }
+
         li {
             text-decoration: underline;
             line-height: 1.8;

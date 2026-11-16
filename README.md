@@ -2,6 +2,10 @@
 
 A small static JavaScript demo of a product list and shopping cart.
 
+## Live Demo
+
+[Open the cart demo](https://goldlexx.github.io/showcase/)
+
 ## Features
 
 - Add products to the cart

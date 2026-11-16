@@ -24,3 +24,13 @@ There is no package manifest or build step in this repository. Open `index.html`
 - `index.html` — product list and cart markup
 - `style/style.css` — page styling
 - `js/script.js` — cart interactions and total calculation
+
+## Tests
+
+Run the cart interaction tests with Node.js:
+
+```sh
+node --test js/script.test.js
+```
+
+The tests cover adding products, duplicate prevention, total calculation, and removal.

@@ -1,40 +1,31 @@
-# Product Cart Demo
+<div align="center">
 
-A small static JavaScript demo of a product list and shopping cart.
+# 🛒 Product Cart Demo
 
-## Live Demo
+Небольшой демо-каталог с интерактивной корзиной.
 
-[Open the cart demo](https://goldlexx.github.io/showcase/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?logo=javascript&logoColor=111)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-222?logo=github)](https://goldlexx.github.io/showcase/)
 
-## Features
+</div>
 
-- Add products to the cart
-- Prevent the same product from being added twice
-- Remove a product by selecting it in the cart
-- Recalculate the total when the cart changes
+## Возможности
 
-## Technologies
+- добавление товаров в корзину;
+- защита от повторного добавления;
+- удаление товаров с доступным управлением с клавиатуры.
 
-- HTML
-- CSS
-- Vanilla JavaScript
+## Демонстрация
 
-## Run locally
+[Открыть демо](https://goldlexx.github.io/showcase/)
 
-There is no package manifest or build step in this repository. Open `index.html` in a browser to view the page.
+## Запуск
 
-## Project structure
+Откройте `index.html` в браузере. Сборка не требуется.
 
-- `index.html` — product list and cart markup
-- `style/style.css` — page styling
-- `js/script.js` — cart interactions and total calculation
+## Технологии
 
-## Tests
+HTML, CSS, JavaScript.
 
-Run the cart interaction tests with Node.js:
+## Лицензия
 
-```sh
-node --test js/script.test.js
-```
-
-The tests cover adding products, duplicate prevention, total calculation, and removal.
+Лицензия в репозитории не указана.

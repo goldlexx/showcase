@@ -1,31 +1,23 @@
 <div align="center">
 
-# 🛒 Product Cart Demo
+# 🛒 Витрина ноутбуков
 
-Небольшой демо-каталог с интерактивной корзиной.
+**Компактная корзина, в которой видна связь между выбором товара и суммой покупки.**
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?logo=javascript&logoColor=111)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-222?logo=github)](https://goldlexx.github.io/showcase/)
+![JavaScript](https://img.shields.io/badge/JavaScript-806900) ![HTML](https://img.shields.io/badge/HTML-D94D27) ![CSS](https://img.shields.io/badge/CSS-5546A6)
+
+[Открыть витрину](https://goldlexx.github.io/showcase/)
 
 </div>
 
-## Возможности
+Нажмите **Buy** возле ноутбука, чтобы добавить его в корзину. Второй клик не дублирует позицию. Нажатие на товар в корзине удаляет его и пересчитывает итог. Логика выбора и подсчёта находится в [js/script.js](js/script.js).
 
-- добавление товаров в корзину;
-- защита от повторного добавления;
-- удаление товаров с доступным управлением с клавиатуры.
+![Витрина с моделями ноутбуков, ценами и кнопками добавления](docs/interface.jpg)
 
-## Демонстрация
+## Локальный запуск
 
-[Открыть демо](https://goldlexx.github.io/showcase/)
+Откройте `index.html` из корня репозитория в браузере.
 
-## Запуск
+## Проверка
 
-Откройте `index.html` в браузере. Сборка не требуется.
-
-## Технологии
-
-HTML, CSS, JavaScript.
-
-## Лицензия
-
-Лицензия в репозитории не указана.
+`node --test js/script.test.js` проверяет добавление, защиту от дублей, удаление и итоговую сумму.
